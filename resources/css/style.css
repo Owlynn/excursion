@@ -1,17 +1,53 @@
 body {
     background-color: black;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    width: 100%
 }
 
 #titre {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     
 }
 
-#lienDL {
+.lienDL {
     color: aquamarine;
     font-size: 16px;
+    margin: 1%;
+}
+video {
+    margin: auto;
+
+}
+
+h2 {
+    
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+}
+
+#tente{
+    width: 50%;
+    margin: auto;
+}
+
+#cell{
+    width: 50px;
+    margin: auto;
+    padding: 1%;
+}
+
+#cc{
+    text-align :end
 }
